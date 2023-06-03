@@ -1,0 +1,134 @@
+.container{
+    height: 591.2926025390636px;
+    width: 1016.9354248046882px;
+    width: 100%;
+    background-color: #ffeadb;
+}
+.heading{
+    display: flex;
+    place-items: center;
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    color: #D97122;
+    letter-spacing: 0.085em;
+}
+.star{
+    width: 27px;
+    height: 29px;
+    margin: 0px 10px;
+}
+.userReviewOuterDiv{
+    position: relative;
+    width: 70%;
+    height: 731px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f2d2ba;
+    margin: auto;
+    padding-top: 50px;
+    height: 731px;
+}
+.reviewBox{
+    margin: auto;
+    width: 95%;
+    height: 370px;
+}
+
+.carouselContainer{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.rating{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rating > img {
+    width: 30px;
+}
+.contain{
+    width: 90%;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ac652f;
+}
+.userImageList{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.inActiveReview{
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ffb782;
+}
+.inActiveReview > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.activeReview{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ac652f;
+}
+.activeReview > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name{
+    width: 120px;
+    color: #ac652f;
+    font-size: 15px;
+}
+.chevron{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.ChevronSide{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 134px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ac652f;
+    color: white;
+}
+@media only screen and (max-width: 800px){
+    .inActiveReview{
+        height: auto;
+    }
+    .activeReview {
+       height: auto;
+    }
+}

@@ -1,0 +1,20 @@
+.container{
+    display: grid;
+    place-items: center;
+}
+.heading{
+    display: flex;
+    place-items: center;
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    color: #D97122;
+    letter-spacing: 0.085em;
+    margin-top: 20px;
+}
+.star{
+    width: 27px;
+    height: 29px;
+    margin: 0px 10px;
+}
